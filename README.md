@@ -1,5 +1,4 @@
 # testtask
 
-Сайт-визитка Захара Гужова — статическая страница без сборки и зависимостей.
-
-Живая версия: https://zahar-pr.github.io/testtask/
+Сайт-лендинг Захар Гужов
+https://zahar-pr.github.io/testtask/
