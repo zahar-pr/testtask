@@ -1,0 +1,153 @@
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+  background: #1A1A1A;
+  background-image:
+    radial-gradient(60vw 40vw at 15% 0%, rgba(0, 225, 225, 0.10), transparent 70%),
+    radial-gradient(50vw 40vw at 95% 25%, rgba(43, 226, 160, 0.08), transparent 70%);
+  background-attachment: fixed;
+  color: #E8E8E8;
+  font-family: -apple-system, "Segoe UI", Roboto, "Liberation Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+header,
+details {
+  margin-bottom: 20px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  display: inline;
+  margin: 0;
+  font-size: 24px;
+  color: #00E1E1;
+}
+
+h3 {
+  margin: 32px 0 8px;
+  font-size: 18px;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+b {
+  color: #2BE2A0;
+}
+
+a {
+  color: #00E1E1;
+}
+
+.small {
+  font-size: 15px;
+  color: #969696;
+}
+
+h2,
+summary,
+.role,
+a {
+  text-shadow: 0 0 12px rgba(0, 225, 225, 0.4);
+}
+
+b {
+  text-shadow: 0 0 12px rgba(43, 226, 160, 0.4);
+}
+
+h1,
+h3,
+.req {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.22);
+}
+
+summary {
+  cursor: pointer;
+}
+
+summary:hover h2 {
+  color: #6FEFEF;
+}
+
+summary + p {
+  margin-top: 16px;
+}
+
+
+.photo {
+  display: block;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto 24px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.role {
+  font-size: 19px;
+  color: #00E1E1;
+}
+
+.go {
+  text-align: center;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.contacts a {
+  display: inline-block;
+  margin: 0 16px 8px 0;
+}
+
+.pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.item {
+  margin-bottom: 24px;
+  color: #C9C9C9;
+}
+
+.req {
+  display: block;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  body   { font-size: 16px; }
+  h1     { font-size: 27px; }
+  h2     { font-size: 21px; }
+
+  header,
+  details { padding: 20px; }
+}
