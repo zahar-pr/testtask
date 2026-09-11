@@ -98,13 +98,27 @@ summary + p {
 }
 
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
 .photo {
   display: block;
   width: 230px;
   height: 230px;
-  margin: 0 auto 24px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.logo {
+  display: block;
+  width: 92px;
+  height: 92px;
+  filter: drop-shadow(0 0 14px rgba(0, 225, 225, 0.35));
 }
 
 .role {
@@ -150,4 +164,8 @@ summary + p {
 
   header,
   details { padding: 20px; }
+
+  .hero  { gap: 16px; }
+  .photo { width: 150px; height: 150px; }
+  .logo  { width: 60px; height: 60px; }
 }
